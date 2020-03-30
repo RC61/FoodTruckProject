@@ -39,7 +39,6 @@ public class FoodTruckApplication {
 
 			}
 		}
-		System.out.println("Checkpoint 1 reached");
 		showMenu();
 
 	}
@@ -60,7 +59,6 @@ public class FoodTruckApplication {
 //Quit the program
 	public void showMenu() {
 		String input = "";
-		System.out.println("Checkpoint 2 (menu) reached");
 
 		while (!input.equals("0")) {
 			System.out.println("Welcome to the Food Truck Menu");
@@ -84,7 +82,7 @@ public class FoodTruckApplication {
 				getHighest();
 				break;
 			case "0":
-				System.out.println("You have selected 0");
+				System.out.println("You have selected menu option 0");
 				System.out.println("Exiting program...");
 				System.exit(0);
 				continue;
