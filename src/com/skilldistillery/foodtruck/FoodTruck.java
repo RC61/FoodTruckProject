@@ -44,13 +44,6 @@ public class FoodTruck {
 		this.nameId = nameId;
 	}
 
-	public int getStaticId() {
-		return nextTruckId;
-	}
-
-	public void setStaticId(int staticId) {
-		this.nextTruckId = staticId;
-	}
 
 	public String getFoodType() {
 		return foodType;

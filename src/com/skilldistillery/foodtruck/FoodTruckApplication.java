@@ -84,7 +84,8 @@ public class FoodTruckApplication {
 				getHighest();
 				break;
 			case "0":
-				System.out.println("See ya sucker...");
+				System.out.println("You have selected 0");
+				System.out.println("Exiting program...");
 				System.exit(0);
 				continue;
 			default:
