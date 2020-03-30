@@ -93,8 +93,7 @@ public class FoodTruckApplication {
 
 		}
 
-		System.out.println("GOODBYE SLUG");
-		System.out.println(fleet[1]);
+		System.out.println("GOODBYE... but you shouldn't ever get here...");
 	}
 
 	public void getRatings() {
